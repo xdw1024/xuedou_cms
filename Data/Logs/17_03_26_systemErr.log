@@ -1,0 +1,80 @@
+[ 17-03-26 13:00:15 ]
+
+错误信息：[ CMS Index index ]Access denied for user 'root'@'localhost' (using password: NO)
+错误页面：/xuedou_cms/xuedou_cms/index.php
+错误类型：ThinkException
+错误跟踪：
+[17-03-26 13:00:03] D:\WWW\xuedou_cms\ThinkPHP\Lib\Think\Db\Db.class.php (285) DbMysql->connect()
+[17-03-26 13:00:03] D:\WWW\xuedou_cms\ThinkPHP\Lib\Think\Db\Driver\DbMysql.class.php (114) Db->initConnect()
+[17-03-26 13:00:03] D:\WWW\xuedou_cms\ThinkPHP\Lib\Think\Db\Driver\DbMysql.class.php (355) DbMysql->_query(SHOW COLUMNS FROM thinkcms_menu)
+[17-03-26 13:00:03] D:\WWW\xuedou_cms\ThinkPHP\Lib\Think\Core\Model.class.php (671) DbMysql->getFields(thinkcms_menu)
+[17-03-26 13:00:03] D:\WWW\xuedou_cms\ThinkPHP\Lib\Think\Core\Model.class.php (640) Model->flush()
+[17-03-26 13:00:03] D:\WWW\xuedou_cms\ThinkPHP\Lib\Think\Core\Model.class.php (142) Model->_checkTableInfo()
+[17-03-26 13:00:03] D:\WWW\xuedou_cms\ThinkPHP\Common\functions.php (845) Model->__construct()
+[17-03-26 13:00:03] D:\WWW\xuedou_cms\CMS\Lib\Action\BaseAction.class.php (20) D(Menu)
+[17-03-26 13:00:03] D:\WWW\xuedou_cms\ThinkPHP\Lib\Think\Core\Action.class.php (81) BaseAction->_initialize()
+[17-03-26 13:00:03] D:\WWW\xuedou_cms\ThinkPHP\Common\functions.php (892) Action->__construct()
+[17-03-26 13:00:03] D:\WWW\xuedou_cms\ThinkPHP\Lib\Think\Core\App.class.php (571) A(Index)
+[17-03-26 13:00:03] D:\WWW\xuedou_cms\ThinkPHP\Lib\Think\Core\App.class.php (646) App->exec()
+[17-03-26 13:00:03] D:\WWW\xuedou_cms\index.php (22) App->run()
+
+[ 17-03-26 13:01:40 ]
+
+错误信息：[ CMS Index index ]Access denied for user 'root'@'localhost' (using password: NO)
+错误页面：/xuedou_cms/xuedou_cms/index.php
+错误类型：ThinkException
+错误跟踪：
+[17-03-26 13:01:03] D:\WWW\xuedou_cms\ThinkPHP\Lib\Think\Db\Db.class.php (285) DbMysql->connect()
+[17-03-26 13:01:03] D:\WWW\xuedou_cms\ThinkPHP\Lib\Think\Db\Driver\DbMysql.class.php (114) Db->initConnect()
+[17-03-26 13:01:03] D:\WWW\xuedou_cms\ThinkPHP\Lib\Think\Db\Driver\DbMysql.class.php (355) DbMysql->_query(SHOW COLUMNS FROM thinkcms_menu)
+[17-03-26 13:01:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (9) DbMysql->getFields(thinkcms_menu)
+[17-03-26 13:01:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (9) Model->flush()
+[17-03-26 13:01:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (9) Model->_checkTableInfo()
+[17-03-26 13:01:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (3) Model->__construct()
+[17-03-26 13:01:03] D:\WWW\xuedou_cms\CMS\Lib\Action\BaseAction.class.php (20) D(Menu)
+[17-03-26 13:01:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (8) BaseAction->_initialize()
+[17-03-26 13:01:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (3) Action->__construct()
+[17-03-26 13:01:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (7) A(Index)
+[17-03-26 13:01:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (7) App->exec()
+[17-03-26 13:01:03] D:\WWW\xuedou_cms\index.php (22) App->run()
+
+[ 17-03-26 13:02:39 ]
+
+错误信息：[ CMS Index index ]Access denied for user 'root'@'localhost' (using password: NO)
+错误页面：/xuedou_cms/xuedou_cms/index.php
+错误类型：ThinkException
+错误跟踪：
+[17-03-26 13:02:03] D:\WWW\xuedou_cms\ThinkPHP\Lib\Think\Db\Db.class.php (285) DbMysql->connect()
+[17-03-26 13:02:03] D:\WWW\xuedou_cms\ThinkPHP\Lib\Think\Db\Driver\DbMysql.class.php (114) Db->initConnect()
+[17-03-26 13:02:03] D:\WWW\xuedou_cms\ThinkPHP\Lib\Think\Db\Driver\DbMysql.class.php (355) DbMysql->_query(SHOW COLUMNS FROM thinkcms_menu)
+[17-03-26 13:02:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (9) DbMysql->getFields(thinkcms_menu)
+[17-03-26 13:02:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (9) Model->flush()
+[17-03-26 13:02:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (9) Model->_checkTableInfo()
+[17-03-26 13:02:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (3) Model->__construct()
+[17-03-26 13:02:03] D:\WWW\xuedou_cms\CMS\Lib\Action\BaseAction.class.php (20) D(Menu)
+[17-03-26 13:02:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (8) BaseAction->_initialize()
+[17-03-26 13:02:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (3) Action->__construct()
+[17-03-26 13:02:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (7) A(Index)
+[17-03-26 13:02:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (7) App->exec()
+[17-03-26 13:02:03] D:\WWW\xuedou_cms\index.php (22) App->run()
+
+[ 17-03-26 13:04:06 ]
+
+错误信息：[ CMS Index index ]Access denied for user 'root'@'localhost' (using password: NO)
+错误页面：/xuedou_cms/xuedou_cms/index.php
+错误类型：ThinkException
+错误跟踪：
+[17-03-26 13:04:03] D:\WWW\xuedou_cms\ThinkPHP\Lib\Think\Db\Db.class.php (285) DbMysql->connect()
+[17-03-26 13:04:03] D:\WWW\xuedou_cms\ThinkPHP\Lib\Think\Db\Driver\DbMysql.class.php (114) Db->initConnect()
+[17-03-26 13:04:03] D:\WWW\xuedou_cms\ThinkPHP\Lib\Think\Db\Driver\DbMysql.class.php (355) DbMysql->_query(SHOW COLUMNS FROM thinkcms_menu)
+[17-03-26 13:04:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (9) DbMysql->getFields(thinkcms_menu)
+[17-03-26 13:04:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (9) Model->flush()
+[17-03-26 13:04:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (9) Model->_checkTableInfo()
+[17-03-26 13:04:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (3) Model->__construct()
+[17-03-26 13:04:03] D:\WWW\xuedou_cms\CMS\Lib\Action\BaseAction.class.php (20) D(Menu)
+[17-03-26 13:04:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (8) BaseAction->_initialize()
+[17-03-26 13:04:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (3) Action->__construct()
+[17-03-26 13:04:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (7) A(Index)
+[17-03-26 13:04:03] D:\WWW\xuedou_cms\Data\CMS_Runtime\~runtime.php (7) App->exec()
+[17-03-26 13:04:03] D:\WWW\xuedou_cms\index.php (22) App->run()
+
